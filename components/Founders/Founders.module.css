@@ -1,0 +1,117 @@
+.img1 img, .img2 img {
+  width: 100%;
+}
+
+.Founders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Founders h1 {
+  font-size: 40px;
+  color: rgb(233, 9, 9);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: center;
+}
+
+.images img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 90px;
+  text-align: center;
+  padding: 15px;
+}
+
+.dec h3 {
+  color: black;
+  font-size: 20px;
+  margin-top: -4px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+.dec p {
+  color: black;
+  margin-left: -15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+  .images {
+    gap: 50px;
+  }
+  
+  .images img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Founders h1 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  
+  .images {
+    gap: 40px;
+  }
+  
+  .images img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Founders h1 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+
+  .images {
+
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .images img {
+    max-width: 460px;
+  }
+
+  .dec h3 {
+    font-size: 25px;
+  }
+  
+  .dec p {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Founders h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .images img {
+    max-width: 150px;
+  }
+
+  .dec h3 {
+    font-size: 16px;
+  }
+  
+  .dec p {
+    font-size: 16px;
+  }
+}

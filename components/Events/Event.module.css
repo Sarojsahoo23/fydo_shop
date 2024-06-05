@@ -1,0 +1,110 @@
+.reservation {
+  display: flex;
+  min-height: 50vh;
+  padding: 30px 30px;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-left: 70px;
+ position: relative;
+
+ 
+}
+.reservation .container {
+  display: flex;
+ 
+  width: 50%;
+  height: 30vh;
+}
+.reservation .container .banner {
+  width: 50%;
+ 
+}
+
+.helpimg img {
+   width: 90%;
+   height: 50vh;
+   border-radius: 50px;
+ }
+
+ .reservation .container .banner .helptext{
+  margin-top: -60px;
+ 
+ }
+.reservation .container .banner .helptext p {  
+  font-size: 30px;
+  color: rgb(17, 17, 18);
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.reservation .container .banner .helptext h2 {
+  font-size: 40px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.reservation .container .banner .helptext button {
+  background-color: #fe3838;
+ font-size: 30px;
+ border-radius: 20px;
+
+}
+
+.reservation .container .banner .helptext button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+/* Responsive design for phones */
+
+@media (max-width: 768px) {
+  .reservation {
+      padding: 15px;
+      margin-left: 0;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .reservation .container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+  }
+
+  .helpimg {
+      width: 100%;
+      text-align: center;
+  }
+
+  .helpimg img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+  }
+
+  .reservation .container .banner {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .reservation .container .banner .helptext {
+      margin-top: 0;
+      text-align: center;
+  }
+
+  .reservation .container .banner .helptext p {
+      font-size: 20px;
+  }
+
+  .reservation .container .banner .helptext h2 {
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .reservation .container .banner .helptext button {
+      font-size: 20px;
+      border-radius: 10px;
+  }
+}
